@@ -29,6 +29,8 @@ namespace mastermind
                     }
                     Console.WriteLine();
 
+                    // add to attempt counter 
+                    attempts++;
                     if (guess == answer) //guess is correct
                     {
                         hasWon = true;
@@ -36,9 +38,6 @@ namespace mastermind
                     }
                     else // guess is incorrect
                     {
-                        // add to attempt counter 
-                        attempts++;
-
                         // find the sequence of both correct and misplaced digits from the player's guess
                         var correctAnswers = DetermineCorrectGuesses(guess, answer);
                         var correctGuesses = correctAnswers.Item1;
