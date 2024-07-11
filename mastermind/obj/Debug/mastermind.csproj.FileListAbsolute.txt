@@ -1,0 +1,7 @@
+C:\Users\lehne\Documents\Projects\mastermind\mastermind\bin\Debug\mastermind.exe.config
+C:\Users\lehne\Documents\Projects\mastermind\mastermind\bin\Debug\mastermind.exe
+C:\Users\lehne\Documents\Projects\mastermind\mastermind\bin\Debug\mastermind.pdb
+C:\Users\lehne\Documents\Projects\mastermind\mastermind\obj\Debug\mastermind.csproj.AssemblyReference.cache
+C:\Users\lehne\Documents\Projects\mastermind\mastermind\obj\Debug\mastermind.csproj.CoreCompileInputs.cache
+C:\Users\lehne\Documents\Projects\mastermind\mastermind\obj\Debug\mastermind.exe
+C:\Users\lehne\Documents\Projects\mastermind\mastermind\obj\Debug\mastermind.pdb
