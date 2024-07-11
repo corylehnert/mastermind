@@ -22,6 +22,7 @@ namespace mastermind
                 {
                     Console.Write("Guess the 4 digit number: ");
                     var guess = Console.ReadLine();
+
                     if (guess.Length != 4) //make sure that the length of the number guessed is 4
                     {
                         Console.WriteLine("Please enter a 4 digit number.");
@@ -31,6 +32,7 @@ namespace mastermind
 
                     // add to attempt counter 
                     attempts++;
+
                     if (guess == answer) //guess is correct
                     {
                         hasWon = true;
@@ -106,6 +108,7 @@ namespace mastermind
             {
                 Console.Write("Would you like to play again(Y/N): ");
                 var playAgain = Console.ReadLine();
+
                 if (playAgain.ToUpper() == "N")
                 {
                     return true;
@@ -129,6 +132,7 @@ namespace mastermind
         {
             var correctGuesses = "";
             var correctSequence = "";
+
             for(int i = 0; i < answer.Length; i++)
             {
                 if (guess[i] == answer[i])
@@ -156,6 +160,7 @@ namespace mastermind
         {
             var misplacedGuesses = "";
             var misplacedSequence = ""; 
+
             for (int i = 0; i < answer.Length; i++)
             {
                 if(correctSequence[i] != ' ') // the digit is correct and in position
